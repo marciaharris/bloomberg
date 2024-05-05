@@ -42,3 +42,8 @@ background-color: #FC9A2b;
 .orangeFont {
   color: #fdcd96;
 }
+
+.imageSize {
+  height: 50px;
+  width: 50px;
+}
