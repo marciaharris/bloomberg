@@ -3,8 +3,8 @@ export default function Carosel() {
     <div className="overscroll-contain bg-scroll">
       <div className="carousel w-full">
         <div id="slide1" className=" bg-local carousel-item relative w-full">
-          <div className="card card-side cardBlue orangeFont shadow-xl">
-            <figure><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
+          <div className="relative card card-side cardBlue orangeFont shadow-xl">
+            <figure className="absolute left-5 top-5 h-3/4 "><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
             <div className="card-body">
               <h2 className="card-title">New movie is released FIRST!</h2>
               <p>Click the button to watch on Jetflix app.</p>
