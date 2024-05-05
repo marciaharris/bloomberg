@@ -7,27 +7,38 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.greyOne {
+  background-color: #E6EAED;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.sidebar {
+  height: 100%;
+  width: 102px;
+}
+
+.boxSize {
+height: 138px;
+Width: 150px;
+background-color: #FC9A2b;
+}
+
+.blueColor{
+  background-color: #023047;
+}
+
+.fontColor {
+  color: #bde0f1;
+}
+
+.cardBlue {
+  background-color: #577b8c;
+}
+
+.orangeFont {
+  color: #fdcd96;
 }
