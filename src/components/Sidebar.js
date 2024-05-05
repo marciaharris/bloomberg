@@ -2,7 +2,7 @@ import Case from './case.png';
 
 export default function SideBar() {
   return (
-    <div className="relative">
+    <div className="relative z-10">
       <div className=" fixed top-0 bottom-196 w-full right-0 navbar greyOne drop-shadow-md">
         <div className=" navbar-start">
           <div className="fixed top-2 w-10">
@@ -29,6 +29,28 @@ export default function SideBar() {
           <img src="https://pbs.twimg.com/media/GM2JnCWWsAAvMXr?format=png&name=120x120" />
         </div>
       </ul>
+      <div className="relative">
+        <div className="fixed top-20 right-0 left-30 bulletin rounded-lg cardBlue grid">
+          <h1 className="flex justify-center text-xl orangeFont mt-5">Bulletin Board </h1>
+          <div className="divider divider-warning"></div>
+          <h1 className="flex justify-center text-md text-white mt-0">Access job postings shared by your mentors </h1>
+          <div className="w-16 h-10 justify-self-center">
+            <img src="https://pbs.twimg.com/media/GM2SJSdXQAE1Wsn?format=png&name=360x360" />
+          </div>
+          <h1 className="flex justify-center text-md text-white mt-5">Find local events shared by members you know </h1>
+          <div className="w-16 h-10 justify-self-center">
+            <img src="https://pbs.twimg.com/media/GM2SbJvWQAATRz2?format=png&name=120x120" />
+          </div>
+          <h1 className="flex justify-center text-md text-white mt-5">The latest tech news curated just for you </h1>
+          <div className="w-16 h-10 justify-self-center">
+            <img src="https://pbs.twimg.com/media/GM2SY1oWYAENKxk?format=png&name=240x240" />
+          </div>
+          <h1 className="flex justify-center text-md text-white mt-5">Access resources to streamline success </h1>
+          <div className="w-16 h-10 justify-self-center">
+            <img src="https://pbs.twimg.com/media/GM2TBO1XcAAo5-R?format=png&name=120x120" />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
