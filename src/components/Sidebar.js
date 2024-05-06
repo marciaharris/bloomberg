@@ -30,7 +30,9 @@ export default function SideBar() {
       </div>
       <ul className=" fixed drop-shadow-md top-16 bottom-0 left-0 menu xl:menu-vertical w-28 greyOne h-full ">
         <div className="h-10 w-10 flex justify-center">
+          <button>
           <img src="https://pbs.twimg.com/media/GM2JnCWWsAAvMXr?format=png&name=120x120" />
+          </button>
         </div>
       </ul>
       <div className="relative">
@@ -58,3 +60,4 @@ export default function SideBar() {
     </div>
   )
 }
+//<button className=""> <Link href="/"></Link></button>

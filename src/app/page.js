@@ -1,10 +1,6 @@
-
-import people from "/public/images/peopleicon.png";
-import hands from '/public/images/hands.png';
-import eyes from '/public/images/eyes.png';
 import Carosel from "@/components/TopNav";
 import Carousel from "@/components/Network";
-// 
+import Link from "next/link"; 
 
 export default function Home() {
   return (
@@ -17,7 +13,7 @@ export default function Home() {
             <img src="https://pbs.twimg.com/media/GM2Jy1PWwAAH9nF?format=png&name=small" alt="people icon" />
           </div>
           <button className="absolute bottom-5 left-5 right-5  fontColor blueColor rounded-lg">
-            <a href="https://t.me/TechBridgeBOT">Find My Mentor</a></button>
+            <a href="https://t.me/TechBridgeMatchBot">Find My Mentor</a></button>
         </div>
         <div className="boxSize text-center p-1 relative mr-10 rounded-md greyOne">
           Match me with my fellow mentees
@@ -34,7 +30,7 @@ export default function Home() {
             <img src="https://pbs.twimg.com/media/GM2JgSbXAAAWEcR?format=png&name=small" />
           </div>
           </div>
-          <button className="absolute bottom-5 left-5 right-5 fontColor blueColor rounded-lg">Find My Focus</button>
+          <button className="absolute bottom-5 left-5 right-5 fontColor blueColor rounded-lg"> <Link href="/focus">Find my focus</Link></button>
         </div>
    
       </div>
