@@ -2,12 +2,17 @@ export default function Carosel() {
   return (
     <div className="overscroll-contain bg-scroll">
       <div className="carousel w-full">
-        <div id="slide1" className=" bg-local carousel-item relative w-full">
+        <div id="slide1" className="carousel-item relative w-full">
           <div className="relative card card-side cardBlue orangeFont shadow-xl">
-            <figure className="absolute left-5 top-5 h-3/4 "><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
+            <figure className=" "><img src="https://pbs.twimg.com/media/GM2hSVYWcAA0urh?format=png&name=small" alt="Movie" /></figure>
             <div className="card-body">
-              <h2 className="card-title">New movie is released FIRST!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <h2 className="card-title">Maya Patel</h2>
+              <p>Role - Senior Data Scientist
+                <br/> 
+                Company - TechGenius Inc
+                <br/>
+                Experience - 12 years
+              </p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Watch</button>
               </div>
@@ -20,10 +25,15 @@ export default function Carosel() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <div className="card card-side cardBlue orangeFont shadow-xl">
-            <figure><img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
+            <figure><img src="https://pbs.twimg.com/media/GM2hWctW8AAnr3_?format=png&name=small" alt="Movie" /></figure>
             <div className="card-body">
               <h2 className="card-title">New movie is released THIRD LAST!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
+              <p>Role - Data Science Manager
+                <br/> 
+                Company - Analytics Solutions
+                <br/>
+                Experience - 8 years
+              </p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Watch</button>
               </div>

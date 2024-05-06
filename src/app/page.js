@@ -3,6 +3,7 @@ import people from "/public/images/peopleicon.png";
 import hands from '/public/images/hands.png';
 import eyes from '/public/images/eyes.png';
 import Carosel from "@/components/TopNav";
+import Carousel from "@/components/Network";
 // 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
           <div className=" flex justify-center mt-1 imageSize ">
             <img src="https://pbs.twimg.com/media/GM2Jy1PWwAAH9nF?format=png&name=small" alt="people icon" />
           </div>
-          <button className="absolute bottom-5 left-5 right-5 text-sm fontColor blueColor rounded-lg">
+          <button className="absolute bottom-5 left-5 right-5  fontColor blueColor rounded-lg">
             <a href="https://t.me/TechBridgeBOT">Find My Mentor</a></button>
         </div>
         <div className="boxSize text-center p-1 relative mr-10 rounded-md greyOne">
@@ -28,8 +29,10 @@ export default function Home() {
         </div>
         <div className="relative boxSize p-1 text-center mr-10 rounded-md greyOne">
           Chart my course to success
-          <div className="flex justify-center mt-1 w-16 h-16">
+          <div className="relative">
+          <div className="mt-1 w-16 h-16 justify-self-end">
             <img src="https://pbs.twimg.com/media/GM2JgSbXAAAWEcR?format=png&name=small" />
+          </div>
           </div>
           <button className="absolute bottom-5 left-5 right-5 fontColor blueColor rounded-lg">Find My Focus</button>
         </div>
@@ -37,8 +40,8 @@ export default function Home() {
       </div>
       <h1 className="mt-10 mb-10 font-bold text-xl"> Mentor Circle </h1>
       <Carosel />
-      <Carosel />
-      <Carosel />
+      <h1 className="mt-10 mb-10 font-bold text-xl"> Network Updates </h1>
+      <Carousel />
     </main>
   );
 }
