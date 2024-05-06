@@ -40,7 +40,7 @@ export default function SideBar() {
           <h1 className="flex justify-center text-xl orangeFont mt-5">Bulletin Board </h1>
           <div className="divider divider-warning"></div>
           <h1 className="flex justify-center text-md text-white mt-0">Access job postings shared by your mentors </h1>
-          <div className="w-16 h-10 justify-self-center">
+          <div className="w-16 h-10 justify-self-center"> 
             <img src="https://pbs.twimg.com/media/GM2SJSdXQAE1Wsn?format=png&name=360x360" />
           </div>
           <h1 className="flex justify-center text-md text-white mt-5">Find local events shared by members you know </h1>

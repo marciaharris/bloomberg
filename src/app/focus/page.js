@@ -33,9 +33,14 @@ export default function Focus() {
                     <button className="absolute bottom-5 left-5 right-5 fontColor blueColor rounded-lg">Interview Prep</button>
                 </div>
             </div>
-            <h1 className="mt-20 mb-2 font-bold text-xl"> Event Calendar </h1>
-            <div>
+            <h1 className="mt-20 mb-2 font-bold text-xl flex flex-row"> Event Calendar </h1>
+            <div className="flex flex-row">
+            <div className="mr-3">
                 <img src="https://pbs.twimg.com/media/GM2tKUdWQAA7S9R?format=png&name=small"/>
+            </div>
+            <div className="w-80 h-96 rounded-lg">
+                <img src="https://pbs.twimg.com/media/GM3HwffWUAAfLHv?format=png&name=900x900"/>
+            </div>
             </div>
         </div>
     )
