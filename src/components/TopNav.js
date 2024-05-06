@@ -27,13 +27,14 @@ export default function Carosel() {
           <div className="card card-side cardBlue orangeFont shadow-xl">
             <figure><img src="https://pbs.twimg.com/media/GM2hWctW8AAnr3_?format=png&name=small" alt="Movie" /></figure>
             <div className="card-body">
-              <h2 className="card-title">New movie is released THIRD LAST!</h2>
+              <h2 className="card-title">Ryan Johnson</h2>
               <p>Role - Data Science Manager
                 <br/> 
                 Company - Analytics Solutions
                 <br/>
                 Experience - 8 years
               </p>
+              <p>Maya Patel, PhD</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Watch</button>
               </div>

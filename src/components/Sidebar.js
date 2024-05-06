@@ -29,9 +29,22 @@ export default function SideBar() {
 
       </div>
       <ul className=" fixed drop-shadow-md top-16 bottom-0 left-0 menu xl:menu-vertical w-28 greyOne h-full ">
-        <div className="h-10 w-10 flex justify-center">
+        <div className="mt-5 h-10 w-10 flex justify-center">
           <button>
           <img src="https://pbs.twimg.com/media/GM2JnCWWsAAvMXr?format=png&name=120x120" />
+          Home
+          </button>
+        </div>
+        <div className="mt-10 ml-5 h-4 w-4 flex justify-center">
+          <button>
+          <img src="https://pbs.twimg.com/media/GM3UPt6WwAAd4U7?format=png&name=240x240" />
+          Community
+          </button>
+        </div>
+        <div className="mt-24 ml-5 h-4 w-4 flex justify-center">
+          <button>
+          <img src="https://pbs.twimg.com/media/GM3UPt5WAAASz-r?format=png&name=120x120" />
+          Tasks
           </button>
         </div>
       </ul>

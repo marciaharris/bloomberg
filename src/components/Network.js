@@ -6,7 +6,7 @@ export default function Carousel() {
             <div className="relative card card-side cardBlue orangeFont shadow-xl">
               <figure className=" "><img src="https://pbs.twimg.com/media/GM2pCONX0AAomEP?format=png&name=small" alt="Movie" /></figure>
               <div className="card-body">
-                <h2 className="card-title">Maya Patel</h2>
+                <h2 className="card-title">Bloomberg Hackathon 2024</h2>
                 <p>Role - Senior Data Scientist
                   <br/> 
                   Company - TechGenius Inc
