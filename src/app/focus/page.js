@@ -15,7 +15,7 @@ export default function Focus() {
                         <img src="https://pbs.twimg.com/media/GM24o1cWwAA2fVD?format=png&name=240x240" alt="people icon" />
                     </div>
                     <button className="absolute bottom-5 left-5 right-5  fontColor blueColor rounded-lg">
-                        <a href="https://t.me/TechBridgeMatchBot">My resume</a></button>
+                        <a href="https://t.me/TB_resume_BOT">My resume</a></button>
                 </div>
                 <div className="boxSizeO text-center p-1 relative mr-10 rounded-lg greyOne">
                     <div className="flex justify-center mt-1 w-16 h-16">
@@ -30,7 +30,8 @@ export default function Focus() {
                             <img src="https://pbs.twimg.com/media/GM2JgSbXAAAWEcR?format=png&name=small" />
                         </div>
                     </div>
-                    <button className="absolute bottom-5 left-5 right-5 fontColor blueColor rounded-lg">Interview Prep</button>
+                    <button className="absolute bottom-5 left-5 right-5 fontColor blueColor rounded-lg">
+                        <a href="https://t.me/TB_Interview_bot"> Interview Prep</a></button>
                 </div>
             </div>
             <h1 className="mt-20 mb-2 font-bold text-xl flex flex-row"> Event Calendar </h1>
